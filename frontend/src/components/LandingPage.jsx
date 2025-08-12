@@ -12,7 +12,7 @@ const LandingPage = () => {
     const trackVisit = async () => {
       try {
         await axios.post(`${API_URL}/track-visit`);
-        console.log("API URL is:", API_URL);
+        //console.log("API URL is:", API_URL);
       } catch (error) {
         console.error('Error tracking visit:', error);
       }
@@ -74,7 +74,7 @@ const LandingPage = () => {
         </FadeInOnScroll>
         <button
           onClick={handleDownload}
-          className="w-full lg:w-auto px-6 py-3 bg-blue-500 text-white hover:bg-blue-600 rounded-lg text-base sm:text-lg font-semibold transition-colors"
+          className="w-full lg:w-auto px-6 py-3 bg-blue-500 text-white hover:bg-blue-600 rounded-lg text-base sm:text-lg font-semibold transition-colors cursor-pointer"
         >
           Download Extension
         </button>
@@ -86,12 +86,12 @@ const LandingPage = () => {
           See Setup
         </h2>
         <h3 className="text-center mb-8">
-          Extract the zip file. <br />
-          Go to chrome://extensions and enable developer mode
+          Extract the zip file - Go to chrome://extensions and enable developer mode.<br />
+          Note: When selecting a folder, ensure you choose the inner directory that contains the `html` and `js` files, <br />not the outer folder created by unzipping.
         </h3>
         <FadeInOnScroll className="flex justify-center mb-12" direction="up">
           <video className="w-full max-w-4xl rounded-lg shadow-xl" controls>
-            <source src="/bandicam 2025-08-03 23-55-53-998.mp4" type="video/mp4" />
+            <source src="/setup-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </FadeInOnScroll>
@@ -101,7 +101,7 @@ const LandingPage = () => {
         </h2>
         <FadeInOnScroll className="flex justify-center mb-20" direction="up">
           <video className="w-full max-w-4xl rounded-lg shadow-xl" controls>
-            <source src="/bandicam 2025-08-03 23-55-53-998.mp4" type="video/mp4" />
+            <source src="/demo-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </FadeInOnScroll>

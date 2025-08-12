@@ -43,6 +43,9 @@ const adminAuth = (req, res, next) => {
 };
 
 // Public Routes
+app.get('/ping', (req, res) => {
+  res.status(200).send('pong');
+});
 app.post('/track-visit', async (req, res) => {
   try {
     const newVisit = new Visit();

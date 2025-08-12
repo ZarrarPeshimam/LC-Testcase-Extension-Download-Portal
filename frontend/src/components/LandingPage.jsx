@@ -29,7 +29,6 @@ const LandingPage = () => {
     } catch (error) {
       console.error('Error tracking download:', error);
       // Fallback or user notification if tracking fails
-      alert("Download initiated! If it doesn't start, please try again.");
       window.location.href = '/TLE-extention.zip'; // Still try to redirect
     }
   };

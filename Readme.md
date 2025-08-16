@@ -1,4 +1,4 @@
-**TLE Cse Generator**
+**TLE Cse Generator - Downlad Portal**
 
 Welcome to the repository for the landing page and download portal of the TLE-generator-site. This project serves as the main entry point for users, providing key information about the TLE Generator and a direct way to download the browser extension.
 
@@ -25,4 +25,4 @@ Welcome to the repository for the landing page and download portal of the TLE-ge
 * Tailwind CSS: A utility-first framework for responsive and rapid styling.
 
 
-**GitHub Repository of the extention **: [\[LC-Testcase-Extention\]](https://github.com/ZarrarPeshimam/LC-Testcase-Extension)
+**GitHub Repository of the extention**: [\LC-Testcase-TLE Cse Generator Extention\](https://github.com/ZarrarPeshimam/LC-Testcase-Extension)

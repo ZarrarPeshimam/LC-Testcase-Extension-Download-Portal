@@ -106,11 +106,72 @@ const LandingPage = () => {
           </video>
         </FadeInOnScroll>
       </section>
+      <section className="container mx-auto px-4 sm:px-6 lg:px-0 mt-16">
+        <h2 className="text-3xl font-bold text-blue-800 text-center mb-8">
+          Recommended Questions to Try
+        </h2>
 
+        {/* Recommended List */}
+        <ul className="grid grid-cols-1 gap-4 max-w-2xl mx-auto text-center">
+          <li>
+            <a
+              href="https://leetcode.com/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=sliding-window"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block p-3 text-gray-100 hover:text-blue-500 rounded-lg bg-blue-800 hover:bg-white font-semibold transition-colors duration-300 ease-in-out"
+            >
+              Contains Duplicate II
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block p-3 text-gray-100 hover:text-blue-500 rounded-lg bg-blue-800 hover:bg-white font-semibold transition-colors duration-300 ease-in-out"
+            >
+              Longest Subarray with Maximum Bitwise AND
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/?envType=daily-question&envId=2025-07-30"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block p-3 text-gray-100 hover:text-blue-500 rounded-lg bg-blue-800 hover:bg-white font-semibold transition-colors duration-300 ease-in-out"
+            >
+              Smallest Subarrays with Maximum Bitwise OR
+            </a>
+          </li>
+        </ul>
+
+        <p className="text-center text-gray-700 mb-2 mt-6 max-w-2xl mx-auto">
+          Note: Some problems may not perfectly align with random test case generation
+          due to their specific input constraints.  
+</p>
+      </section>
       {/* Footer Section */}
       <footer className="mt-12 py-4 text-center border-t border-gray-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-0">
-          <p className="text-gray-600">Developed by Zarrar Peshimam</p>
+          <p className="text-gray-600">
+            Developed by{" "}
+            <a
+              href="https://www.linkedin.com/in/zarrar-peshimam-a2439b28b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-900 hover:underline font-semibold transition-all duration-200"
+            >
+              Zarrar
+            </a>{" "}
+            <a
+              href="https://github.com/ZarrarPeshimam" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-900 hover:underline font-semibold transition-all duration-200"
+            >
+              Peshimam
+            </a>
+          </p>
           <div className="mt-2 flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-8">
             <a
               href="https://github.com/ZarrarPeshimam/TLE-Case-Generator-Extension"
@@ -118,7 +179,15 @@ const LandingPage = () => {
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-700 font-semibold transition"
             >
-              GitHub Repository
+              Extension GitHub Repository
+            </a>
+            <a
+              href="https://github.com/ZarrarPeshimam/TLE-Generator-Download-Portal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-700 font-semibold transition"
+            >
+              Portal GitHub Repository
             </a>
             
           </div>

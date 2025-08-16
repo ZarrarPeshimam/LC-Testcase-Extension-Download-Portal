@@ -113,7 +113,7 @@ const LandingPage = () => {
           <p className="text-gray-600">Developed by Zarrar Peshimam</p>
           <div className="mt-2 flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-8">
             <a
-              href="https://github.com/ZarrarPeshimam/LC-Testcase-Extension"
+              href="https://github.com/ZarrarPeshimam/TLE-Case-Generator-Extension"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-600 font-semibold transition"

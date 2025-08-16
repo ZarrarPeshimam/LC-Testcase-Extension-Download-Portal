@@ -116,18 +116,11 @@ const LandingPage = () => {
               href="https://github.com/ZarrarPeshimam/TLE-Case-Generator-Extension"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-600 font-semibold transition"
+              className="text-blue-500 hover:text-blue-700 font-semibold transition"
             >
               GitHub Repository
             </a>
-            <a
-              href="https://zarrar-peshimam-portfolio.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-600 font-semibold transition"
-            >
-              Portfolio
-            </a>
+            
           </div>
         </div>
       </footer>

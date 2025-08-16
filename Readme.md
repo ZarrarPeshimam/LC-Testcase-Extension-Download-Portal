@@ -25,4 +25,4 @@ Welcome to the repository for the landing page and download portal of the TLE-ge
 * Tailwind CSS: A utility-first framework for responsive and rapid styling.
 
 
-**GitHub Repository of the extention**: [\LC-Testcase-TLE Cse Generator Extention\](https://github.com/ZarrarPeshimam/LC-Testcase-Extension)
+**GitHub Repository of the extention**: [\[LC-Testcase-TLE Cse Generator Extention\]](https://github.com/ZarrarPeshimam/LC-Testcase-Extension)

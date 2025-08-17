@@ -153,41 +153,23 @@ const LandingPage = () => {
       {/* Footer Section */}
       <footer className="mt-12 py-4 text-center border-t border-gray-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-0">
-          <p className="text-gray-600">
-            Developed by{" "}
-            <a
-              href="https://www.linkedin.com/in/zarrar-peshimam-a2439b28b/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-900 hover:underline font-semibold transition-all duration-200"
-            >
-              Zarrar
-            </a>{" "}
-            <a
-              href="https://github.com/ZarrarPeshimam" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-900 hover:underline font-semibold transition-all duration-200"
-            >
-              Peshimam
-            </a>
-          </p>
+          <p className="text-gray-600">Developed by Zarrar Peshimam</p>
           <div className="mt-2 flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-8">
             <a
-              href="https://github.com/ZarrarPeshimam/TLE-Case-Generator-Extension"
+              href="https://www.linkedin.com/in/zarrar-peshimam-a2439b28b"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-700 font-semibold transition"
             >
-              Extension GitHub Repository
+              LinkedIn
             </a>
             <a
-              href="https://github.com/ZarrarPeshimam/TLE-Generator-Download-Portal"
+              href="https://github.com/ZarrarPeshimam"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-700 font-semibold transition"
             >
-              Portal GitHub Repository
+              GitHub
             </a>
             
           </div>
